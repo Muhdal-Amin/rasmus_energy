@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Interactive Design
 
-![Design](./Images/Screen%20Recording%20(12-31-2023%203-46-15%20PM).mp4)
+![Design](Screen%20Recording%20(12-31-2023%203-46-15%20PM).mp4)
 
 
 ### Links
