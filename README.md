@@ -28,10 +28,6 @@ Users should be able to:
 
 ![Design](./Images/screenshot%20rasmus%20energy.png)
 
-### Interactive Design
-
-![Design](Screen%20Recording%20(12-31-2023%203-46-15%20PM).mp4)
-
 
 ### Links
 
