@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![My Design](./Images/screenshot rasmus energy.png)
+![My Design](./Images/screenshot%20rasmus%20energy.png)
 
 ### Links
 
