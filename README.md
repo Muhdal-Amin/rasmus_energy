@@ -24,9 +24,14 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size.
 - See interactive elements.
 
-### Screenshot
+### Static Design
 
-![My Design](./Images/screenshot%20rasmus%20energy.png)
+![Design](./Images/screenshot%20rasmus%20energy.png)
+
+### Interactive Design
+
+![Design](./Images/Screen%20Recording%20(12-31-2023%203-46-15%20PM).mp4)
+
 
 ### Links
 
@@ -48,4 +53,4 @@ Users should be able to:
 
 ## Acknowledgements
 
-Original design by @Kolybrawn on X(Formely known as twitter).
+Original design by @Kolybrawn on X (Formely known as twitter).
