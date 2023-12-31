@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: rgba(34, 201, 98, 0.836);
+}
+
+.nav-container {
+  display: flex;
+  height: 105px;
+  padding-top: 9px;
+  background-color: white;
+  
+}
+
+.logo {
+  margin-left: 115px;
+  border: 5px double rgb(3, 3, 63);
+  background-color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 9px;
+  color: rgb(8, 8, 36)
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  margin-left: 160px;
+  margin-top: 30px;
+}
+
+nav > ul > li > a {
+  color: rgb(8, 8, 36);
+  text-decoration: none;
+  position: relative;
+  padding-right: 60px;
+  font-size: 0.91rem;
+}
+
+nav > ul > li:not(:last-child) > a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0; /* Initial width, set to 0 */
+  height: 2px; /* Thickness of the border */
+  background-color: rgb(3, 3, 63); /* Color of the border */
+  transition: width 0.5s; /* Add a smooth transition effect for width changes */
+  margin-bottom: -17px;
+  margin-left: -18px;
+}
+
+nav > ul > li:not(:last-child) > a:hover::after{
+  width: 80%;
+  color: rgb(3, 3, 63);
+}
+
+nav > ul > li:last-of-type > a:last-of-type{
+  color: white;
+  border: 5px solid rgb(3, 3, 63);
+  background-color: rgb(3, 3, 63);
+  padding: 9px 18px 9px 18px;
+  border-radius: 9px; 
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-container {
+  position: absolute;
+  top: 250px;
+  left: 115px;
+  color:rgb(8, 8, 36);
+}
+
+.header {
+  font-size: 3.2em;
+  margin: 0;
+}
+
+.content-details {
+  margin-bottom: 46px;
+}
+
+.content-link {
+  text-decoration: none;
+  color: white;
+  border: 5px solid rgb(3, 3, 35);
+  background-color: rgb(3, 3, 35);
+  padding: 9px 18px 9px 18px;
+  border-radius: 9px; 
+}
+
+.img {
+  position: absolute;
+  left: 715px;
+  top: 100px;
+  height: 620px;
+  width: 580px;
+  object-fit: contain;
+}
+
+/* Define a keyframe animation named 'jump' */
+@keyframes jump {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); /* Initial, midway, and final position is no translation */
+  }
+  40% {
+    transform: translateY(-20px); /* Jump up at 40% */
+  }
+  60% {
+    transform: translateY(-10px); /* Jump down at 60% */
+  }
+}
+
+/* Apply the 'jump' animation to the icon element */
+footer i {
+  height: 55px; 
+  width: 100%; 
+  bottom: 0; 
+  position: fixed; 
+  text-align: center; 
+  line-height: 60px; 
+  font-size: 30px; 
+  color: rgb(8, 8, 36);
+  animation: jump 3s infinite; /* Use the 'jump' animation with a 4-second duration, and repeat indefinitely */
+}
